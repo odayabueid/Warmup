@@ -5,4 +5,8 @@
 	// 37 ===> 40
  function closestMultipleOf10(num) {
  	//your code is here
+ 	var newNum = num / 10
+ 	
+ 	return Math.round(newNum) * 10;
+
  }
