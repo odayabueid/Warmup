@@ -4,4 +4,15 @@
 	
 	function repeatStr (n, s) {
 		//your code is here
+
+		
+		var total = "";
+
+		for(var i = 0 ; i < n; i++){
+
+			total = total + s
+
+		}
+
+		return total;
 	}
